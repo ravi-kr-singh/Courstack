@@ -132,4 +132,84 @@
     width: auto;
     margin: auto;
   }
+  @media only screen and (max-width:1280px){
+    .blank{
+      display: none;
+    }
+    .buto{
+      width:27.77%;
+    }
+    .butoo{
+      width:10.22%;
+    }
+    .navbutton:hover{
+      letter-spacing: 3px;
+    }
+  }
+@media only screen and (max-width:710px){
+  .Navigationbar{
+    display: block;
+    height: 220px;
+  }
+  .logo,.blank,.buto,.butoo{
+    width: 100%;
+  }
+  .imglogo{
+    width: 57%;
+    height:auto;
+    margin: auto;
+  }
+  .buto,.butoo{
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+  .motto{
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width:870px){
+  .ic{
+    height: 80%;
+    width: auto;
+  }
   
+}
+@media only screen and (max-width:711px){
+  .ic{
+    height: 70%;
+    width: auto;
+  }
+  
+}
+@media only screen and (max-width:625px){
+  .navbutton{
+    border:2px solid white;
+    border-radius: 5px;
+  }
+  .icons{
+    display: block;
+    margin-top:20px;
+    height: auto;
+  }
+  .icon{
+    width:100%;
+  }
+  .ic{
+    margin-top:10px;
+    width:50%;
+    height: auto;
+  }
+  .motto{
+    margin: 20px 0px 0px 0px;
+    width:100%;
+
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:305px){
+  .buto,.butoo{
+    width: 90%;
+  }
+}
