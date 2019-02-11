@@ -126,6 +126,9 @@
     margin-top: 60px;
     height: 60px;
   }
+  .icon{
+    height: 100%;
+  }
   .ic{
     display: block;
     height: 100%;
