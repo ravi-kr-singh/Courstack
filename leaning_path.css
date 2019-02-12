@@ -7,8 +7,8 @@
 
   html,
   body {
-      width: 100%;
-      height: 100%;
+      width: 100vw;
+      height: 100vh;
       margin: 0;
       padding: 0;
       overflow-x: hidden;
@@ -16,19 +16,16 @@
   }
 
   .Holder{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-wrap: wrap;
+    margin: 40vh 0 0 20vw;
   }
 
 
   .Path{
-    width:38%;
+    display: inline-block;
+    width:45%;
+    height: 100px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight:bolder;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
@@ -40,6 +37,7 @@
     transition-duration: 0.25s;
     transition-delay: 0.1s;
     color: white;
+    border-radius: 5px;
   }
   .Path:hover{
     cursor: pointer;
@@ -47,8 +45,22 @@
     background-color: white;
     color: black;
     letter-spacing: 5px;
-    width: 38%;
+    
   }
   .Path1{
-      margin-right: 10%;
+      margin-right: 10vh;
   }
+
+@media only screen and (max-width:1111px){
+    .Holder{
+        margin: 30vh 0 0 18vw;
+    }
+    .Path{
+        display: block;
+        width:75%;
+    }
+    .Path1{
+        margin-right: 0vh;
+        margin-bottom: 10vh;
+    }
+}
