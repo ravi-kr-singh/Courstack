@@ -16,13 +16,16 @@
   }
 
   .Holder{
-    margin: 40vh 0 0 20vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 
   .Path{
     display: inline-block;
-    width:45%;
+    width:35%;
     height: 100px;
     padding: 10px;
     font-size: 20px;
@@ -44,23 +47,10 @@
     box-shadow: 5px 6px 8px 0 rgba(255,255,255,0.24),0 17px 50px 0 rgba(255,255,255,0.19);
     background-color: white;
     color: black;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     
   }
   .Path1{
-      margin-right: 10vh;
+      margin-right: 7%;
   }
 
-@media only screen and (max-width:1111px){
-    .Holder{
-        margin: 30vh 0 0 18vw;
-    }
-    .Path{
-        display: block;
-        width:75%;
-    }
-    .Path1{
-        margin-right: 0vh;
-        margin-bottom: 10vh;
-    }
-}
