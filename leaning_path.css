@@ -1,0 +1,54 @@
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      background-color: rgba(36, 37, 42, 1);
+  }
+
+  .Holder{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .Path{
+    width:38%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    background-color: inherit;
+    border:2px solid white;
+    margin:5px;
+    letter-spacing: 3px;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-delay: 0.1s;
+    color: white;
+  }
+  .Path:hover{
+    cursor: pointer;
+    box-shadow: 5px 6px 8px 0 rgba(255,255,255,0.24),0 17px 50px 0 rgba(255,255,255,0.19);
+    background-color: white;
+    color: black;
+    letter-spacing: 5px;
+    width: 38%;
+  }
+  .Path1{
+      margin-right: 10%;
+  }
